@@ -1,6 +1,6 @@
 h1,h2{
     justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 body{
     background: linear-gradient(-77deg ,rgb(214, 23, 36),rgb(238, 132, 18));
