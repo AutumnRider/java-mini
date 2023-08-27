@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background: url('cave.jpg') no-repeat center top;
+    background: url('cave1.jpg') no-repeat center top;
     margin-top: 80px;
     height:max-content;
     width: max-content;
@@ -81,3 +81,36 @@ body{
     color: darkblue;
     transform: rotateY(180deg);
 }
+.btn{
+    padding-left: 550px;
+    padding-right: 300px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+.btn a,button{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    margin-left: 45mm;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 25px;
+    background-color: lightblue;
+    font-family:'Courier New', Courier, monospace;
+    font:bold;
+    font-style: italic;
+    font-weight: bolder;
+    border: none
+    
+}
+.btn a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.btn button:hover{
+    background-color: #ddd;
+    color: black;
+}
+
