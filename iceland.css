@@ -16,6 +16,14 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }*/
+.stat{
+    
+
+}
+span{
+    padding: 5px;
+    background: #ddd;
+}
 *{
     box-sizing: border-box;
     
