@@ -3,6 +3,14 @@ body{
     
 
 }
+.bg{
+    background-image: url('forest.jpg.avif');
+    height:200%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: large;
+}
 .flip-card{
     display: block;
     background-color: transparent;
