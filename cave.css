@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    background: url('cave.jpg') no-repeat center top;
+    margin-top: 80px;
+    height:max-content;
+    width: max-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+/*.bg{
+    background-image: url('ice.jpg');
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+*{
+    box-sizing: border-box;
+    
+}
+.col{
+    display: flex;
+    flex-direction: row;
+    float:left;
+    width: 25%;
+    padding-left: 350px;
+    padding-right: 200px;
+    padding-bottom: 250px;
+}
+.row {margin: 0 -5px;}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+@media screen and (max-width: 600px){
+    .column {
+      height: 100%;
+      display: flex;
+      margin-bottom: 20px;
+    }
+}
+.flip{
+    
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+.flip-inner{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    transition: transform 0.8s;
+   
+    transform-style: preserve-3d;
+   
+}
+.flip:hover .flip-inner{
+    transform: rotateY(180deg);
+}
+.flip-front,.flip-back{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.flip-front{
+    background-color: transparent;
+    color: black;
+}
+.flip-back{
+    background-image: linear-gradient(75deg,rgb(80, 27, 5),lightpink);
+    color: darkblue;
+    transform: rotateY(180deg);
+}
