@@ -81,3 +81,34 @@ body{
     color: darkblue;
     transform: rotateY(180deg);
 }
+.btn{
+    padding-left: 500px;
+    padding-right: 300px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+.btn a,button{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: lavender;
+    font-family:'Courier New', Courier, monospace;
+    font:bold;
+    font-style: italic;
+    font-weight: bolder;
+    border: none
+    
+}
+.btn a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.btn button:hover{
+    background-color: #ddd;
+    color: black;
+}
