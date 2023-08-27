@@ -7,6 +7,13 @@
     <link rel="stylesheet" href="iceland.css">
 </head>
 <body>
+    <script src="index.js"></script>
+    <div class ="row">
+        <span class="stat">XP:<strong><span id="XPtext">0</span></strong></span>
+        <span class="stat">Gold:<strong><span id="goldtext">0</span></strong></span>
+        <span class="stat">Food:<strong><span id="foodtext">10</span></strong></span>
+        
+    </div>
     <div class="row">
         <div class = "col">
             <div class="flip">
@@ -51,7 +58,7 @@
     <div class="row">
         <div class = "btn">
             <a href ="haunted.html">Haunted room</a>
-            <button> acquire food</button>
+            <button onclick="addFood()"> acquire food</button>
             <a href="cave.html">Cave</a>
         </div>
     </div>
