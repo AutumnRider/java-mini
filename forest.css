@@ -3,13 +3,10 @@ body{
     
 
 }
-.bg{
-    background-image: url('forest.jpg.avif');
-    height:200%;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: large;
+head{
+    justify-content:center;
+    width: 500px;
+    height: 899px;
 }
 .flip-card{
     display: block;
